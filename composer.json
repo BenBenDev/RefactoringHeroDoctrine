@@ -1,0 +1,13 @@
+{
+    "name": "imie/superhero",
+    "description": "SuperHero",
+    "require": {
+        "doctrine/orm": "^2.5",
+        "symfony/yaml": "^3.2"
+    },
+    "authors": [
+        {
+            "name": "Ben"
+        }
+    ]
+}
