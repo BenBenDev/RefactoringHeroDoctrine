@@ -8,23 +8,23 @@
 
 namespace src\Controller;
 
-use src\Model\HeroPowerDTO;
-use src\Model\PowerDAO;
-use src\Model\SuperHeroDAO;
-use src\Model\SuperHeroDTO;
-use src\Model\TeamDAO;
-use src\Model\TeamDTO;
+use src\Entity\HeroPowerDTO;
+use src\Entity\PowerDAO;
+use src\Entity\SuperHeroDAO;
+use src\Entity\SuperHeroDTO;
+use src\Entity\TeamDAO;
+use src\Entity\TeamDTO;
 use src\View\View;
 
 class HeroController
 {
-    private $heroDAO;
-    private $heroDTO;
+    //private $heroDAO;
+    //private $heroDTO;
 
     public function __construct()
     {
-        $this->heroDAO = new SuperHeroDAO();
-        $this->heroDTO = new SuperHeroDTO();
+//        $this->heroDAO = new SuperHeroDAO();
+//        $this->heroDTO = new SuperHeroDTO();
     }
 
     /**
@@ -33,6 +33,7 @@ class HeroController
      * affiche ensuite la vue heroView.php avec les heros
      */
     public function getAllAction($datas=null){
+        echo 'passage dans HeroController.php';die();
         $heroes = $this->heroDAO->getAllHero();
 
         foreach ($heroes as $hero){

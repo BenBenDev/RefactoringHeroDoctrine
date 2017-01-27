@@ -19,8 +19,8 @@ class PowerController
 
     public function __construct()
     {
-        $this->powerDAO = new PowerDAO();
-        $this->powerDTO = new PowerDTO();
+//        $this->powerDAO = new PowerDAO();
+//        $this->powerDTO = new PowerDTO();
     }
 
     public function getAllAction($datas=null,$powerUpdate=null)

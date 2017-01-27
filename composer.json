@@ -9,5 +9,10 @@
         {
             "name": "Ben"
         }
-    ]
+    ], 
+    "autoload": {
+            "psr-4" : {
+                "src\\" : "src/"
+            }
+        }
 }
