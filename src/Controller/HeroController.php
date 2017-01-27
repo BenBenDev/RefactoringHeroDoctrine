@@ -33,7 +33,7 @@ class HeroController
      * affiche ensuite la vue heroView.php avec les heros
      */
     public function getAllAction($datas=null){
-        echo 'passage dans HeroController.php';die();
+        // echo 'passage dans HeroController.php';die();
         $heroes = $this->heroDAO->getAllHero();
 
         foreach ($heroes as $hero){

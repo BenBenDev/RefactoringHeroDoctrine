@@ -15,7 +15,7 @@ if (isset($_SERVER['PATH_INFO'])&&$_SERVER['PATH_INFO']!=null){
 }
 $method = $_SERVER['REQUEST_METHOD'];
 
-const PATH = 'SuperHero';
+const PATH = 'RefactoringHeroDoctrine';
 
 $dispatch = new Dispatcher($em);
 echo $dispatch->dispatch();

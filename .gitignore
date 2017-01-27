@@ -1,3 +1,5 @@
 /nbproject/
 RefactoringHero-master.zip
 /vendor/
+/bootstrap.php
+.DS_Store
