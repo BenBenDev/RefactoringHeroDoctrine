@@ -1,5 +1,9 @@
 /nbproject/
 RefactoringHero-master.zip
 /vendor/
+<<<<<<< HEAD
 /bootstrap.php
 .DS_Store
+=======
+/Entity/Connexion.php
+>>>>>>> fb6e7882edc7877e9bd2e4ccac810d4549492332
