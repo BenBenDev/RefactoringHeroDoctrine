@@ -8,8 +8,8 @@
 
 namespace src\Controller;
 
-use src\Model\PowerDAO;
-use src\Model\PowerDTO;
+//use src\Entity\PowerDAO;
+//use src\Entity\PowerDTO;
 use src\View\View;
 
 class PowerController
@@ -25,6 +25,7 @@ class PowerController
 
     public function getAllAction($datas=null,$powerUpdate=null)
     {
+        
         $powers = $this->powerDAO->getAllPower();
         $view = new View('power','allPower');
         return $view->renderView(['powers'=>$powers,'powerUpdate'=>$powerUpdate]);
