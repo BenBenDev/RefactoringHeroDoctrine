@@ -7,62 +7,62 @@ use Doctrine\Common\Collections\ArrayCollection;
 
 
 /**
-* @Entity(repositoryClass="BugRepository")
+* @Entity
 * @Table(name="sh_hero_power")
 **/
 class HeroPower{
     /**
-     * 
+     * @Id
      * @GeneratedValue
-     * @Column(type="integer")
+     * @Column(type="integer", name="hero_power_id")
      */
-    private $heroPowerID;
+    private $heroPowerId;
     
     /**
      * @Column(type="integer") 
      */
-    private $heroPowerHeroID;
+    private $heroPowerHeroId;
     
     /**
      * @Column(type="integer") 
      */
-    private $heroPowerPowerID;
+    private $heroPowerPowerId;
     
     /**
      * @Column(type="integer") 
      */
-    private $heroPowerLevelID;
+    private $heroPowerLevelId;
     
-    function getHeroPowerID() {
-        return $this->heroPowerID;
+    function getHeroPowerId() {
+        return $this->heroPowerId;
     }
 
-    function getHeroPowerHeroID() {
-        return $this->heroPowerHeroID;
+    function getHeroPowerHeroId() {
+        return $this->heroPowerHeroId;
     }
 
-    function getHeroPowerPowerID() {
-        return $this->heroPowerPowerID;
+    function getHeroPowerPowerId() {
+        return $this->heroPowerPowerId;
     }
 
-    function getHeroPowerLevelID() {
-        return $this->heroPowerLevelID;
+    function getHeroPowerLevelId() {
+        return $this->heroPowerLevelId;
     }
 
-    function setHeroPowerID($heroPowerID) {
-        $this->heroPowerID = $heroPowerID;
+    function setHeroPowerId($heroPowerId) {
+        $this->heroPowerId = $heroPowerId;
     }
 
-    function setHeroPowerHeroID($heroPowerHeroID) {
-        $this->heroPowerHeroID = $heroPowerHeroID;
+    function setHeroPowerHeroId($heroPowerHeroId) {
+        $this->heroPowerHeroId = $heroPowerHeroId;
     }
 
-    function setHeroPowerPowerID($heroPowerPowerID) {
-        $this->heroPowerPowerID = $heroPowerPowerID;
+    function setHeroPowerPowerId($heroPowerPowerId) {
+        $this->heroPowerPowerId = $heroPowerPowerId;
     }
 
-    function setHeroPowerLevelID($heroPowerLevelID) {
-        $this->heroPowerLevelID = $heroPowerLevelID;
+    function setHeroPowerLevelId($heroPowerLevelId) {
+        $this->heroPowerLevelId = $heroPowerLevelId;
     }
 
 

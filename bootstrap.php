@@ -11,7 +11,7 @@ $config = Setup::createAnnotationMetadataConfiguration(array("src/Entity"), $isD
 $conn = [
     'dbname' => 'super_hero',
     'user' => 'root',
-    'password' => 'root',
+    'password' => '',
     'host' => '127.0.0.1',
     'driver' => 'pdo_mysql',
 ];

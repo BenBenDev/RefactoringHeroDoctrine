@@ -12,7 +12,7 @@ class SuperHero
     /**
     * @Id
     * @GeneratedValue
-    * @Column(type="integer")
+    * @Column(type="integer", name="hero_id")
     **/
     private $heroID;
     /**
@@ -32,11 +32,11 @@ class SuperHero
     **/
     Private $heroCountry;
     /**
-    * @OneToMany(targetEntity="TeamId", mappedBy="reporter")
+    * @Column(type="integer")
     **/
     private $heroTeamId;
     /**
-    * @OneToMany(targetEntity="TeamId", mappedBy="reporter")
+    * @Column(type="integer")
     **/
     private $superPowers = [];
 

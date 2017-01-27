@@ -11,7 +11,7 @@ class TeamDTO
     /**
     * @Id
     * @GeneratedValue
-    * @Column(type="integer")
+    * @Column(type="integer", name="team_id")
     **/
     private $TeamId;
 
